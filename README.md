@@ -26,18 +26,11 @@ The model requires as parameters: the weigths matrix (W), the biases (b), and th
 The model framework backpropagation is updated per observation using: 
 
 
+```math
+MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2})
+```
 
-![formula](https://render.githubusercontent.com/render/math?math=MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2})
-
-
-                                                    
-![equation](http://www.sciweavers.org/tex2img.php?eq=MSE%5Cleft%28y_%7Bi%7D-%5Chat%7By%7D_%7Bi%7D%5Cright%29%3D%5Cleft%5C%7Cy_%7Bi%7D-%5Chat%7By%7D_%7Be%20s%20t%2C%20i%7D%5Cright%5C%7C%5E%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-
- 
-starting from ```math \hat{\psi}_{0} ``` with the equations:
-
-![equation](http://www.sciweavers.org/tex2img.php?eq=%5Chat%7B%5Cpsi%7D_%7B0%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+starting from ``` \hat{\psi}_{0} ``` with the equations:
 
 ```math
 \begin{gathered}
@@ -46,7 +39,7 @@ starting from ```math \hat{\psi}_{0} ``` with the equations:
 \end{gathered}
 ```
 
-where ```math \psi ``` is the set of parameters (w,b,Sigma) in our case. They are two additional equations that complete those above
+where ``` \psi ``` is the set of parameters (w,b,Sigma) in our case. They are two additional equations that complete those above
 explained in reference [2] and well introduced in [1]. There are about the Training data, and test data predictions update. Please read 
 reference [2] and the Jupyter Notebook for a guide note of usage and application. 
 
