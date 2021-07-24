@@ -25,11 +25,6 @@ You need to load some initial predictions from the Shallow Gibbs Model, or any a
 The model requires as parameters: the weigths matrix (W), the biases (b), and the response covariance matrix (Sigma).
 The model framework backpropagation is updated per observation using: 
 
-{% raw %}
-MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}
-{% endraw %}
-
-
 
 
 ![formula](https://render.githubusercontent.com/render/math?math=MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2})
@@ -39,9 +34,10 @@ MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}
 ![equation](http://www.sciweavers.org/tex2img.php?eq=MSE%5Cleft%28y_%7Bi%7D-%5Chat%7By%7D_%7Bi%7D%5Cright%29%3D%5Cleft%5C%7Cy_%7Bi%7D-%5Chat%7By%7D_%7Be%20s%20t%2C%20i%7D%5Cright%5C%7C%5E%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 
-![ MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}](https://www.codecogs.com/eqnedit.php?latex=MSE\left(y_{i}-\hat{y}{i}\right)=\|y{i}-\hat{y}_{e&space;s&space;t,&space;i}\|^{2}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?MSE\left(y_{i}-\hat{y}{i}\right)=\|y{i}-\hat{y}_{e&space;s&space;t,&space;i}\|^{2}" title="MSE\left(y_{i}-\hat{y}{i}\right)=\|y{i}-\hat{y}_{e s t, i}\|^{2})
  
 starting from ```math \hat{\psi}_{0} ``` with the equations:
+
+![equation](http://www.sciweavers.org/tex2img.php?eq=%5Chat%7B%5Cpsi%7D_%7B0%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 ```math
 \begin{gathered}
