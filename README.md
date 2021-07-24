@@ -27,7 +27,7 @@ The model framework backpropagation is updated per observation using:
 
 
 ```math
-MSE = \left(y_{i}-\hat{y}_{i}\right)=\|y_{i}-\hat{y}_{e s t, i}\|^{2})
+MSE \left(y_{i}-\hat{y}_{i}\right)=\|y_{i}-\hat{y}_{e s t, i}\|^{2})
 ```
 
 starting from ``` \hat{\psi}_{0} ``` with the equations:
