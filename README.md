@@ -1,3 +1,6 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+ 
 # shallowgibbs-doublebackpropagation
 Double Backpropagation Algorithm -- Implementation with the Shallow Gibbs Model
 
@@ -24,9 +27,9 @@ You need to load some initial predictions from the Shallow Gibbs Model, or any a
 The model requires as parameters: the weigths matrix (W), the biases (b), and the response covariance matrix (Sigma).
 The model framework backpropagation is updated per observation using:
 
-```math
-M S E\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}
-```
+
+$$ MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}$$
+ 
 starting from ```math \hat{\psi}_{0} ``` with the equations:
 
 ```math
