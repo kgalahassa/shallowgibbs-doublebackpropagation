@@ -50,5 +50,7 @@ reference [2] and the Jupyter Notebook for a guide note of usage and application
 ## References
 [1] Muua, Alejandro, Alahassa, Nonvikan Karl-Augustt. The Shallow Gibbs Network, Double Backpropagation and Differential Machine learning, ScienceOpen Preprints (2021).
  https://www.scienceopen.com/document?vid=9aab283e-130f-4922-accb-20bef8faff9f
+ 
+ 
 [2] Alejandro Murua, Nonvikan Karl-Augustt Alahassa. Double Back-Propagation and Differential Machine Learning. The Ninth Annual Canadian Statistics Student Conference (CSSC), Jun 2021, Ottawa, Canada. (hal-03265399)
  https://hal.archives-ouvertes.fr/hal-03265399
