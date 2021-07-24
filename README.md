@@ -25,6 +25,12 @@ You need to load some initial predictions from the Shallow Gibbs Model, or any a
 The model requires as parameters: the weigths matrix (W), the biases (b), and the response covariance matrix (Sigma).
 The model framework backpropagation is updated per observation using: 
 
+{% raw %}
+MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}
+{% endraw %}
+
+
+
 
 ![formula](https://render.githubusercontent.com/render/math?math=MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2})
 
