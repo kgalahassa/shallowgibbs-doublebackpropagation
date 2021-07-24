@@ -45,7 +45,7 @@ reference [2] and the Jupyter Notebook for a guide note of usage and application
 
 
 ## Pypi Project Page
- https://pypi.org/project/shallowgibbs-doublebackpropagation/1.0.0/
+ https://pypi.org/project/shallowgibbs-doublebackpropagation/1.0.2/
 
 ## Notebook Page
  https://github.com/kgalahassa/shallowgibbs-doublebackpropagation-notebook
