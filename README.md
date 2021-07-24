@@ -24,6 +24,11 @@ Import the Shallow Gibbs Double Backpropagation module
 You need to load some initial predictions from the Shallow Gibbs Model, or any alike-Structured Model.
 The model requires as parameters: the weigths matrix (W), the biases (b), and the response covariance matrix (Sigma).
 The model framework backpropagation is updated per observation using: 
+
+
+![formula](https://render.githubusercontent.com/render/math?math=MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2})
+
+
                                                     
 ![equation](http://www.sciweavers.org/tex2img.php?eq=MSE%5Cleft%28y_%7Bi%7D-%5Chat%7By%7D_%7Bi%7D%5Cright%29%3D%5Cleft%5C%7Cy_%7Bi%7D-%5Chat%7By%7D_%7Be%20s%20t%2C%20i%7D%5Cright%5C%7C%5E%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
