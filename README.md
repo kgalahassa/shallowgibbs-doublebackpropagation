@@ -26,7 +26,7 @@ The model requires as parameters: the weigths matrix (W), the biases (b), and th
 The model framework backpropagation is updated per observation using:
 
 
-![ MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}]
+![ MSE\left(y_{i}-\hat{y}_{i}\right)=\left\|y_{i}-\hat{y}_{e s t, i}\right\|^{2}](https://www.codecogs.com/eqnedit.php?latex=MSE\left(y_{i}-\hat{y}{i}\right)=\|y{i}-\hat{y}_{e&space;s&space;t,&space;i}\|^{2}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?MSE\left(y_{i}-\hat{y}{i}\right)=\|y{i}-\hat{y}_{e&space;s&space;t,&space;i}\|^{2}" title="MSE\left(y_{i}-\hat{y}{i}\right)=\|y{i}-\hat{y}_{e s t, i}\|^{2})
  
 starting from ```math \hat{\psi}_{0} ``` with the equations:
 
