@@ -51,7 +51,7 @@ reference [2] and the Jupyter Notebook for a guide note of usage and application
  https://github.com/kgalahassa/shallowgibbs-doublebackpropagation-notebook
 
 ## References
-[1] Muua, Alejandro, Alahassa, Nonvikan Karl-Augustt. The Shallow Gibbs Network, Double Backpropagation and Differential Machine learning, ScienceOpen Preprints (2021).
+[1] Murua, Alejandro, Alahassa, Nonvikan Karl-Augustt. The Shallow Gibbs Network, Double Backpropagation and Differential Machine learning, ScienceOpen Preprints (2021).
  https://www.scienceopen.com/document?vid=9aab283e-130f-4922-accb-20bef8faff9f
  
  
